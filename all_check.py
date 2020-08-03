@@ -1,5 +1,11 @@
+#!/usr/bin/env python3
+
 import os
 import sys
+
+def check_root_full():
+    """Return true if ..."""
+    return print("Ola")
 
 def check_reboot():
     return os.path.exists("/run/reboot-required")
